@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0px;
     font-family: 'Open Sans', sans-serif;
 }
 .text-primary{
@@ -159,4 +159,30 @@ section{
 .resume-btn{
     margin-top: 50px;
     text-align: center;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 30px 100px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 40px;
+}
+input{
+    height: 64px;
+}
+.section-des{
+    margin-bottom: 25px;
+    text-align: justify;
+}
+.contact a{
+    text-decoration: none;
+    margin-left: 5px;
 }
