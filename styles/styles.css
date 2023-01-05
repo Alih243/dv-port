@@ -113,6 +113,7 @@ section{
 }
 .skill-con{
     display: flex;
+    gap: 30px;
 }
 .skill-title{
     font-weight: 700;
@@ -125,8 +126,37 @@ section{
 }
 .skill{
     background: #FFFFFF;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
+}
+
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color:#757575;
+    font-weight: 600px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .des{
+    color: #757575;
+    font-size: 18px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
 }
